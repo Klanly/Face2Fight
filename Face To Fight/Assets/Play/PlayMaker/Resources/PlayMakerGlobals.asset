@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 42938266, guid: de72a6d2da64d114d95e3c5a01cfaec5, type: 3}
+  m_Name: PlayMakerGlobals
+  m_EditorClassIdentifier: 
+  variables:
+    floatVariables:
+    - useVariable: 1
+      name: Life
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 100
+    - useVariable: 1
+      name: ammocannon
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 50
+    - useVariable: 1
+      name: ammolaser
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    intVariables: []
+    boolVariables: []
+    stringVariables:
+    - useVariable: 1
+      name: Team
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    vector2Variables: []
+    vector3Variables: []
+    colorVariables: []
+    rectVariables: []
+    quaternionVariables: []
+    gameObjectVariables: []
+    objectVariables: []
+    materialVariables: []
+    textureVariables: []
+    arrayVariables: []
+    enumVariables: []
+    categories:
+    - 
+    variableCategoryIDs: 00000000000000000000000000000000
+  events:
+  - bonus1
+  - PHOTON / CONNECTED TO PHOTON
+  - PHOTON / CONNECTION FAIL
+  - PHOTON / CREATED ROOM
+  - PHOTON / CUSTOM AUTHENTICATION FAILED
+  - PHOTON / CUSTOM ROOM PROPERTIES CHANGED
+  - PHOTON / DISCONNECTED FROM PHOTON
+  - PHOTON / FAILED TO CONNECT TO PHOTON
+  - PHOTON / FRIEND LIST UPDATED
+  - PHOTON / JOINED LOBBY
+  - PHOTON / JOINED ROOM
+  - PHOTON / LEFT LOBBY
+  - PHOTON / LEFT ROOM
+  - PHOTON / MASTER CLIENT SWITCHED
+  - PHOTON / MAX CCCU REACHED
+  - PHOTON / PHOTON CREATE ROOM FAILED
+  - PHOTON / PHOTON INSTANTIATE
+  - PHOTON / PHOTON JOIN ROOM FAILED
+  - PHOTON / PHOTON PLAYER CONNECTED
+  - PHOTON / PHOTON PLAYER DISCONNECTED
+  - PHOTON / PHOTON RANDOM JOIN FAILED
+  - PHOTON / PLAYER PROPERTIES CHANGED
+  - PHOTON / RECEIVED ROOM LIST
+  - PHOTON / RECEIVED ROOM LIST UPDATE
+  - 'PHOTON / STATE : CONNECTED'
+  - 'PHOTON / STATE : CONNECTING'
+  - 'PHOTON / STATE : DISCONNECTED'
+  - 'PHOTON / STATE : DISCONNECTING'
+  - 'PHOTON / STATE : INITIALIZING APPLICATION'
+  - bonus2
+  - bonus3
